@@ -25,10 +25,12 @@ The images of the Historic Sites are stored outside of Azure Search in Azure Blo
 
 ### Install Apache Cordova
 
-The first thing you will need to do is to install [Apache Cordova](https://cordova.apache.org/#getstarted) along with all the requried components such as Node.js, Apache ANT and Java.  I am not going to document this, sinc there are already a lot of great examples of how to do this, such as [this one for Windows](https://evothings.com/doc/build/cordova-install-windows.html).
+The next thing you will need to do is to install [Apache Cordova](https://cordova.apache.org/#getstarted) along with all the requried components such as Node.js, Apache ANT and Java.  I am not going to document this, sinc there are already a lot of great examples of how to do this, such as [this one for Windows](https://evothings.com/doc/build/cordova-install-windows.html).
 
-At the time of writing this tutorial, I am using Cordova 4.2.1.  You can check the version you have installed as follows:
+Once you have completed the installations, you can check the version you have installed as follows:
 
 <pre><code>node --version<br>
 v4.2.1
 </code></pre>
+
+At the time of writing this tutorial, I am using Cordova 4.2.1.  
