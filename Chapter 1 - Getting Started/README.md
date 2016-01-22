@@ -34,3 +34,5 @@ v4.2.1
 </code></pre>
 
 At the time of writing this tutorial, I am using Cordova 4.2.1.  
+
+###[Next Chapter - Chapter 2 - Create the Cordova App...](https://github.com/liamca/AzureSearchMobile/tree/master/Chapter%202%20-%20Create%20the%20Cordova%20App)
