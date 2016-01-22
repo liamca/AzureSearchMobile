@@ -30,7 +30,4 @@ There are three main technologies used to build out this application which inclu
 
 ## Chapters
 [**Chapter 1 - Getting Started**](https://github.com/liamca/AzureSearchMobile/tree/master/Chapter%201%20-%20Getting%20Started)
-
- 
-
-
+[**Chapter 2 - Building the Cordova App**](https://github.com/liamca/AzureSearchMobile/tree/master/Chapter%202%20-%20Create%20the%20Cordova%20App)
