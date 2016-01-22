@@ -9,4 +9,14 @@ I have split this tutorial into multiple steps to allow you to build out the fin
 * **PDF Text Extraction** where the text from PDF's related to these historic sites are indexed and searchacble from the application
 * **Spelling Mistake, Stemming & Phonetic Search** to allow users to find content even if they mistype or otherwise make small errors in the search 
 
+## Technologies Used
+
+There are three main technologies used to build out this application which include:
+* **Apache Cordova** which is the technology used to create the cross platform JavaScript application
+* **Azure Search** which is the full text search service that contains the details on the Historic Sites and is where the application executes its search
+* **Azure Blob Storage** contains the images used within the application
+
+
+ 
+
 
