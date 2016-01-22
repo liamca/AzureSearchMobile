@@ -8,10 +8,12 @@ The purpose of this tutorial is not to learn how to create an Azure Search Servi
 
 **Testing Azure Search**
 
-Let's try a few sample search queries against Azure Search using JSFiddle:
+Let's try a sample search queries against Azure Search using JSFiddle:
 
-<pre><code><a href='http://fiddle.jshell.net/liamca/gkvfLe6s/?index=historicsites&apikey=5E81A6D21EB1A028B5C4F7F80C1A9914&query=api-version=2015-02-28%26search=seattle'>Search Historic Sites that contain the word 'Seattle'</a>
+<pre><code><a href='http://fiddle.jshell.net/liamca/gkvfLe6s/?index=historicsites&apikey=5E81A6D21EB1A028B5C4F7F80C1A9914&query=api-version=2015-02-28%26search=seattle building' target='_blank'>Search Historic Sites that contain the words 'Seattle Building'</a>
 </code></pre>
+
+Feel free to adjust the query search text to other values to get the idea.  In future chapters we will start taking a look at more interesting queries such as facets and filters.
 
 ### Install Apache Cordova
 
