@@ -1,6 +1,6 @@
 # Chapter 1 - Getting Started
 
-In this chapter we will get our Cordova environment configured as well as to set up Azure.
+In this chapter we will get our Cordova environment configured as well as to get comfortable with the Azure services that will be used throughout the tutorial
 
 ### Azure Search & Azure Blob Storage
 
