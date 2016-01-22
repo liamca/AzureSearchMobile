@@ -21,7 +21,7 @@ One thing that you might want to notice is the Query ApiKey used.  This key allo
 
 The images of the Historic Sites are stored outside of Azure Search in Azure Blob Storage since it is a lower cost store and binary content does not need to be used as part of the full text search.
 
-<pre><code><a href = 'https://azsplayground.blob.core.windows.net/historicsites/img/00000003_1.jpeg' target='_blank'>Example Historic Image</a></pre></code>
+<pre><code><a href = 'https://azsplayground.blob.core.windows.net/historicsites/img/00000003_1.jpeg' target='_blank'>Example Historic Image</a></code></pre>
 
 ### Install Apache Cordova
 
