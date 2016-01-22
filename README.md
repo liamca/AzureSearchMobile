@@ -9,6 +9,18 @@ I have split this tutorial into multiple steps to allow you to build out the fin
 * **PDF Text Extraction** where the text from PDF's related to these historic sites are indexed and searchacble from the application
 * **Spelling Mistake, Stemming & Phonetic Search** to allow users to find content even if they mistype or otherwise make small errors in the search 
 
+<table>
+<tr><td><b>Main Page</b></td><td><b>Filtering</b></td><td><b>Details Page</b></td></tr>
+<tr><td>
+<img src="https://raw.githubusercontent.com/liamca/AzureSearchMobile/master/images/HistoricSites1.png" width="240" width="320">
+</td><td>
+<img src="https://raw.githubusercontent.com/liamca/AzureSearchMobile/master/images/HistoricSites2.png" width="240" width="320">
+</td><td>
+<img src="https://raw.githubusercontent.com/liamca/AzureSearchMobile/master/images/HistoricSites3.png" width="240" width="320">
+</td></tr>
+</table>
+
+
 ## Technologies Used
 
 There are three main technologies used to build out this application which include:
