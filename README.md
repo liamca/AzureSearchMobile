@@ -28,6 +28,8 @@ There are three main technologies used to build out this application which inclu
 * **Azure Search** which is the full text search service that contains the details on the Historic Sites and is where the application executes its search
 * **Azure Blob Storage** contains the images used within the application
 
+## Chapters
+[**Chapter 1 - Getting Started**](https://github.com/liamca/AzureSearchMobile/tree/master/Chapter%201%20-%20Getting%20Started)
 
  
 
