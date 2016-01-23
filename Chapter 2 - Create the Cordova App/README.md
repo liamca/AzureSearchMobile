@@ -22,9 +22,13 @@ Would you like to keep the current code?  ...it could get ugly! No
 Once this is complete, the output should look as follows:
 <img src="https://raw.githubusercontent.com/liamca/AzureSearchMobile/master/Chapter%202%20-%20Create%20the%20Cordova%20App/configure_app.png" width="1270" width="329">
 
-cordova build windows
-cordova emulate windows
-	(need to accept certificates)
+**Test the App**
+
+Now that we have a very basic Cordova application, let's run it to see what it looks like, using the following commands.  NOTE: (you need to accept any certificate prompts in the emulation step.
+
+<pre><code>cordova build windows
+cordova emulate windows</code></pre>
+
 
 
 
