@@ -1,0 +1,17 @@
+C:\temp\src\cordova\TestSearchApp\platforms\windows\build\phone\debug\anycpu\resources.pri
+C:\temp\src\cordova\TestSearchApp\platforms\windows\build\phone\debug\anycpu\AppxManifest.xml
+C:\temp\src\cordova\TestSearchApp\platforms\windows\build\phone\debug\anycpu\CordovaApp.Phone.build.appxrecipe
+C:\temp\src\cordova\TestSearchApp\platforms\windows\build\phone\bld\priconfig.xml
+C:\temp\src\cordova\TestSearchApp\platforms\windows\build\phone\bld\priconfig.xml.intermediate
+C:\temp\src\cordova\TestSearchApp\platforms\windows\build\phone\bld\layout.resfiles
+C:\temp\src\cordova\TestSearchApp\platforms\windows\build\phone\bld\layout.resfiles.intermediate
+C:\temp\src\cordova\TestSearchApp\platforms\windows\build\phone\bld\resources.resfiles
+C:\temp\src\cordova\TestSearchApp\platforms\windows\build\phone\bld\resources.resfiles.intermediate
+C:\temp\src\cordova\TestSearchApp\platforms\windows\build\phone\bld\pri.resfiles
+C:\temp\src\cordova\TestSearchApp\platforms\windows\build\phone\bld\pri.resfiles.intermediate
+C:\temp\src\cordova\TestSearchApp\platforms\windows\build\phone\bld\qualifiers.txt
+C:\temp\src\cordova\TestSearchApp\platforms\windows\build\phone\bld\qualifiers.txt.intermediate
+C:\temp\src\cordova\TestSearchApp\platforms\windows\build\phone\bld\MultipleQualifiersPerDimensionFound.txt
+C:\temp\src\cordova\TestSearchApp\platforms\windows\build\phone\bld\ProjectArchitectures.txt
+C:\temp\src\cordova\TestSearchApp\platforms\windows\build\phone\bld\package.map.txt
+C:\temp\src\cordova\TestSearchApp\platforms\windows\build\phone\bld\_pkginfo.txt

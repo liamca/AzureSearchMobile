@@ -1,0 +1,14 @@
+C:\temp\src\cordova\TestSearchApp\platforms\wp8\Bin\Debug\ApplicationIcon.png
+C:\temp\src\cordova\TestSearchApp\platforms\wp8\Bin\Debug\Background.png
+C:\temp\src\cordova\TestSearchApp\platforms\wp8\Bin\Debug\com.AzureSearch.TestSearchApp.dll
+C:\temp\src\cordova\TestSearchApp\platforms\wp8\Bin\Debug\com.AzureSearch.TestSearchApp.pdb
+C:\temp\src\cordova\TestSearchApp\platforms\wp8\Bin\Debug\AppManifest.xaml
+C:\temp\src\cordova\TestSearchApp\platforms\wp8\Bin\Debug\Properties\WMAppManifest.xml
+C:\temp\src\cordova\TestSearchApp\platforms\wp8\Bin\Debug\CordovaAppProj_Debug_AnyCPU.xap
+C:\temp\src\cordova\TestSearchApp\platforms\wp8\obj\Debug\App.g.cs
+C:\temp\src\cordova\TestSearchApp\platforms\wp8\obj\Debug\cordovalib\CordovaView.g.cs
+C:\temp\src\cordova\TestSearchApp\platforms\wp8\obj\Debug\MainPage.g.cs
+C:\temp\src\cordova\TestSearchApp\platforms\wp8\obj\Debug\com.AzureSearch.TestSearchApp.g.resources
+C:\temp\src\cordova\TestSearchApp\platforms\wp8\obj\Debug\com.AzureSearch.TestSearchApp.dll
+C:\temp\src\cordova\TestSearchApp\platforms\wp8\obj\Debug\com.AzureSearch.TestSearchApp.pdb
+C:\temp\src\cordova\TestSearchApp\platforms\wp8\obj\Debug\XapCacheFile.xml

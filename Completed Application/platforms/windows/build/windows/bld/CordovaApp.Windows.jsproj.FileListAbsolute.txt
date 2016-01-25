@@ -1,0 +1,17 @@
+C:\temp\src\cordova\TestSearchApp\platforms\windows\build\windows\debug\anycpu\resources.pri
+C:\temp\src\cordova\TestSearchApp\platforms\windows\build\windows\debug\anycpu\AppxManifest.xml
+C:\temp\src\cordova\TestSearchApp\platforms\windows\build\windows\debug\anycpu\CordovaApp.Windows.build.appxrecipe
+C:\temp\src\cordova\TestSearchApp\platforms\windows\build\windows\bld\priconfig.xml
+C:\temp\src\cordova\TestSearchApp\platforms\windows\build\windows\bld\priconfig.xml.intermediate
+C:\temp\src\cordova\TestSearchApp\platforms\windows\build\windows\bld\layout.resfiles
+C:\temp\src\cordova\TestSearchApp\platforms\windows\build\windows\bld\layout.resfiles.intermediate
+C:\temp\src\cordova\TestSearchApp\platforms\windows\build\windows\bld\resources.resfiles
+C:\temp\src\cordova\TestSearchApp\platforms\windows\build\windows\bld\resources.resfiles.intermediate
+C:\temp\src\cordova\TestSearchApp\platforms\windows\build\windows\bld\pri.resfiles
+C:\temp\src\cordova\TestSearchApp\platforms\windows\build\windows\bld\pri.resfiles.intermediate
+C:\temp\src\cordova\TestSearchApp\platforms\windows\build\windows\bld\qualifiers.txt
+C:\temp\src\cordova\TestSearchApp\platforms\windows\build\windows\bld\qualifiers.txt.intermediate
+C:\temp\src\cordova\TestSearchApp\platforms\windows\build\windows\bld\MultipleQualifiersPerDimensionFound.txt
+C:\temp\src\cordova\TestSearchApp\platforms\windows\build\windows\bld\ProjectArchitectures.txt
+C:\temp\src\cordova\TestSearchApp\platforms\windows\build\windows\bld\package.map.txt
+C:\temp\src\cordova\TestSearchApp\platforms\windows\build\windows\bld\_pkginfo.txt

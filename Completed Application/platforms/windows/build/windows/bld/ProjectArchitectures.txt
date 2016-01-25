@@ -1,0 +1,1 @@
+C:\temp\src\cordova\TestSearchApp\platforms\windows\CordovaApp.Windows.jsproj;neutral
