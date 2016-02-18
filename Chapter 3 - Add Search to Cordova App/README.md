@@ -32,8 +32,9 @@ This code will do multiple things:
 
 Build and run the emulation of this app using the following commands:
 
-<pre><code>cordova platform add windows
-cordova-jquery</code></pre>
+<pre><code>cordova build browser
+cordova emulate browser
+</code></pre>
 
 You should see an application that looks like this:
 
