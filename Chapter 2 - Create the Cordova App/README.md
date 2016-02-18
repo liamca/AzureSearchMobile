@@ -26,6 +26,18 @@ Once this is complete, the output should look as follows:
 
 Now that we have a very basic Cordova application, let's run it to see what it looks like, using the following commands.  NOTE: (you need to accept any certificate prompts in the emulation step.
 
+In the version of Cordova and JQuery that I am using, there is an issue where the default template crashes after opening.  As a result, to make progress open the file index.js from within \www\js and remove the following code:
+
+<pre><code>var parentElement = document.getElementById(id);
+var listeningElement = parentElement.querySelector('.listening');
+var receivedElement = parentElement.querySelector('.received');
+listeningElement.setAttribute('style', 'display:none;');
+receivedElement.setAttribute('style', 'display:block;');
+console.log('Received Event: ' + id);
+</code></pre>
+
+At this point you can now build and run this app: 
+
 <pre><code>cordova build windows
 cordova emulate windows</code></pre>
 
