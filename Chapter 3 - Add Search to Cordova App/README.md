@@ -123,4 +123,14 @@ This code will do multiple things:
 * The execSearch function executes a full text search against Azure Search using the text entered into the search box
 * When a response is returned, the data is parsed and loaded into a div called searchResults
 
-###[Next Chapter - Chapter 2 - Create the Cordova App...](https://github.com/liamca/AzureSearchMobile/tree/master/Chapter%202%20-%20Create%20the%20Cordova%20App)
+Build and run the emulation of this app using the following commands:
+
+<pre><code>cordova build browser
+cordova emulate browser
+</code></pre>
+
+You should see an application that looks like this.  I personally found Internet Explorer to work best for me.   Try typing in some text such as Washington.
+
+<img src="https://raw.githubusercontent.com/liamca/AzureSearchMobile/master/Chapter%203%20-%20Add%20Search%20to%20Cordova%20App/screenshot_fulltext_search.png">
+
+###[Next Chapter 4 - Adding Filtering...](https://github.com/liamca/AzureSearchMobile/tree/master/Chapter%204%20-%20Adding%20Filtering)
