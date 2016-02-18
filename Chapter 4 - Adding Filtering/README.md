@@ -123,49 +123,6 @@ function execSearch()
 	
 }
 
-function execLookup(q) {
-    // Do a lookup on a specific item to get details
-    var searchAPI = "https://azs-playground.search.windows.net/indexes/historicsites/docs/" + q +"?api-version=2015-02-28&$select=RESNAME,ResType,Address,City,County,State,NumCBldg,NumCSite,NumCStru,CertifiedDate,Edited,ImageCount";
-
-    $.ajax({
-        url: searchAPI,
-        beforeSend: function (request) {
-            request.setRequestHeader("api-key", apikey);
-            request.setRequestHeader("Content-Type", "application/json");
-            request.setRequestHeader("Accept", "application/json; odata.metadata=none");
-        },
-        type: "GET",
-        success: function (data) {
-            $("#detailsResNameAndType").html(data["RESNAME"] + " (" + data["ResType"] + ")");
-            $("#detailsAddress").html('<label>Address: ' + data["Address"] + ", " + data["City"] + ", " + data["State"] + '</label>');
-
-            $("#detailsCertified").html("Certified: " + data["CertifiedDate"].substring(0, 10));
-            $("#detailsLastEdited").html("Last Edited: " + data["Edited"].substring(0, 10));
-            var pdfLoc = "http://focus.nps.gov/pdfhost/docs/nrhp/text/" + q + ".pdf";
-            $("#detailsLastEdited").html("<a href='" + pdfLoc + "'>Learn more...</a>");
-            $("#detailsImages").html("");
-            for (var i = 1; i <= data["ImageCount"]; i++)
-            {
-                $("#detailsImages").append("<img style='width: 100%;height: auto;max-width: 100%;' src='https://azsplayground.blob.core.windows.net/historicsites/img/" + q + "_" + i + ".jpeg'>");
-            }
-
-        }
-    });
-}
-
-function changePage(fromPage, toPage, reverse, nrisRefnum)
-{
-	if (fromPage == '#homepage')
-	{
-		$.mobile.changePage(toPage, { transition: 'slide', reverse: reverse });
-        execLookup(nrisRefnum);
-	} else {
-		$.mobile.changePage(toPage, { transition: 'slide', reverse: reverse });
-		//navigator.app.backHistory();
-	}
-
-}
-
 function getStaticHTML(html)
 {
 		if(Object.hasOwnProperty.call(window, "ActiveXObject")){     //using IE
