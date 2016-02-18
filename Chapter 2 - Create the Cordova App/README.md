@@ -45,4 +45,4 @@ You should now see a simple application as follows:
 
 <img src="https://raw.githubusercontent.com/liamca/AzureSearchMobile/master/Chapter%202%20-%20Create%20the%20Cordova%20App/initial_cordova_screenshot.png" width="300" width="479">
 
-###[Next Chapter - Chapter 3 - Add Search to Cordova App App...](https://github.com/liamca/AzureSearchMobile/tree/master/Chapter%203%20-%20Add%20Search%20to%20Cordova%20App)
+###[Next Chapter 3 - Add Search to Cordova App App...](https://github.com/liamca/AzureSearchMobile/tree/master/Chapter%203%20-%20Add%20Search%20to%20Cordova%20App)
