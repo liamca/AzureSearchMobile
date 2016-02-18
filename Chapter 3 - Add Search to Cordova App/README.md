@@ -25,6 +25,19 @@ To get started go back to the command console under c:\demo\AzureSearchCordovaDe
 
 		</div> 
 ```
+This code will do multiple things:
+* Create a Panel called filterPanel that will appear from the left that will eventually allow users to filter search results
+* Add a header to the page with the text "Historic US Sites"
+* Add a search text box that will allow user to search for specific historic sites using full text search
+
+If you build and run the emulation of this app using the following commands, you will see an application that looks like this:
+
+<pre><code>cordova platform add windows
+cordova-jquery</code></pre>
+
+<img src="https://raw.githubusercontent.com/liamca/AzureSearchMobile/master/Chapter%203%20-%20Add%20Search%20to%20Cordova%20App/screenshot_adding_searchbox.png" width="502" width="172">
+
+
 
 Next add a reference to a new JavaScript file just above the closing </body> that will contain our Azure Search javascript code:
 
