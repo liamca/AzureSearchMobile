@@ -264,3 +264,14 @@ function compare(a, b) {
     return 0;
 }
 ```
+Build and run the emulation of this app using the following commands:
+
+<pre><code>cordova build browser
+cordova emulate browser
+</code></pre>
+
+You should see an application that looks like this.  Try clicking on the Filter button to see the facets.
+
+<img src="https://raw.githubusercontent.com/liamca/AzureSearchMobile/master/Chapter%204%20-%20Adding%20Filtering/filtering.png">
+
+###[Next Chapter 5 - Adding a Details Page...](https://github.com/liamca/AzureSearchMobile/tree/master/Chapter%204%20-%20Adding%20Filtering)
