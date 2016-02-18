@@ -73,7 +73,7 @@ function execSearch()
 	lastSearchTerm = $("#searchbar").val();
 
     // Extract parameters from URL for search
-    var searchAPI = "https://azs-playground.search.windows.net/indexes/historicsites/docs?api-version=2015-02-28-Preview&$select=NRIS_Refnum,RESNAME,ResType,City,State,ImageCount&$top=10&scoringProfile=default&queryType=full&search=" + lastSearchTerm;
+    var searchAPI = "https://azs-playground.search.windows.net/indexes/historicsites/docs?api-version=2015-02-28-Preview&search=" + lastSearchTerm;
 
     $.ajax({
         url: searchAPI,
