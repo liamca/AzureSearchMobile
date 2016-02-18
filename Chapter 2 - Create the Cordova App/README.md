@@ -41,7 +41,8 @@ At this point you can now build and run this app:
 <pre><code>cordova build windows
 cordova emulate windows</code></pre>
 
+You should now see a simple application as follows:
 
-
+<img src="https://raw.githubusercontent.com/liamca/AzureSearchMobile/master/Chapter%202%20-%20Create%20the%20Cordova%20App/initial_cordova_screenshot.png" width="300" width="479">
 
 ###[Next Chapter - Chapter 2 - Create the Cordova App...](https://github.com/liamca/AzureSearchMobile/tree/master/Chapter%202%20-%20Create%20the%20Cordova%20App)
