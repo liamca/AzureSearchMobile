@@ -1,8 +1,36 @@
-# Chapter 2 - Create the Cordova Application
+# Chapter 3 - Adding Search to the Cordova Application
 
-To get started from a command console create a directory under c:\demo\AzureSearchCordovaDemo and run the following command from this directory:
-<pre><code>C:\demo\AzureSearchCordovaDemo> cordova create c:\demo\AzureSearchCordovaDemo com.AzureSearch.AzureSearchCordovaDemo AzureSearchCordovaDemo
+In the previous chapter we create a basic Cordova application that leverage JQuery.  The goal of this next chapter is to extend this application to provide full text search, using Azure Search.  
+
+To get started go back to the command console under c:\demo\AzureSearchCordovaDemo\www and open the index.html file in a text editor such as Notepad++ and update the page 1 content separated by <!-- jquery mobile page 1 --> and <!-- end page 1 --> with the following:
+
+```html
+		<div data-role="page" id="homepage">
+		  <div data-role="panel" id="filterPanel"> 
+              <form id="FilterResType"></form>
+              <form id="FilterState"></form>
+              <form id="FilterNumCBldg"></form>
+		  </div> 
+
+			<div data-role="header">
+                <a href="#filterPanel" data-icon="grid" data-theme="b">Filter</a>
+				<h1>Historic US Sites</h1>
+			</div>
+
+			<div data-role="main" class="ui-content">
+                <b><a href="https://azure.microsoft.com/en-us/services/search/">Powered by Azure Search</a></b>
+				<input type="search" placeholder="Search Historic Sites" id="searchbar" /><br>
+				<ul data-role="listview" id="searchResults"></ul>
+			</div>
+
+		</div> 
+```
+
+Next add a reference to a new JavaScript file just above the closing </body> that will contain our Azure Search javascript code:
+
+<pre><code><script type="text/javascript" src="js/search.js"></script>
 </code></pre>
+
 
 After running this command you should see the following directories:
 <img src="https://raw.githubusercontent.com/liamca/AzureSearchMobile/master/Chapter%202%20-%20Create%20the%20Cordova%20App/create_app.png" width="930" width="299">
