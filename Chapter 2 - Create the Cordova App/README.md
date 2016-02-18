@@ -7,7 +7,7 @@ To get started from a command console create a directory under c:\demo\AzureSear
 After running this command you should see the following directories:
 <img src="https://raw.githubusercontent.com/liamca/AzureSearchMobile/master/Chapter%202%20-%20Create%20the%20Cordova%20App/create_app.png" width="930" width="299">
 
-<pre><code>cordova platform add windows
+<pre><code>cordova platform add browser
 cordova-jquery</code></pre>
 
 This will configure the Cordova application to support Windows (and we will add more later), as well as to start leveraging JQuery within the application.  When prompted use the following responses:
@@ -38,8 +38,8 @@ console.log('Received Event: ' + id);
 
 At this point you can now build and run this app: 
 
-<pre><code>cordova build windows
-cordova emulate windows</code></pre>
+<pre><code>cordova build browser
+cordova emulate browser</code></pre>
 
 You should now see a simple application as follows:
 
