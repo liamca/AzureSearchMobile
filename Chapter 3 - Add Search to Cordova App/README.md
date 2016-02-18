@@ -40,10 +40,11 @@ You should see an application that looks like this:
 
 <img src="https://raw.githubusercontent.com/liamca/AzureSearchMobile/master/Chapter%203%20-%20Add%20Search%20to%20Cordova%20App/screenshot_adding_searchbox.png" width="502" width="172">
 
-Now that we have some core HTML code for this page, we will next add a reference to a new JavaScript file just above the closing </body> that will contain our Azure Search javascript code:
+Now that we have some core HTML code for this page, we will next add a reference to a new JavaScript file just above the </body> that will contain our Azure Search javascript code:
 
-<pre><code><script type="text/javascript" src="js/search.js"></script>
-</code></pre>
+```html
+<script type="text/javascript" src="js/search.js">
+```
 
 Next create a file called search.js and place it in the /www/js directory with the following content:
 
