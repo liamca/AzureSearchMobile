@@ -31,7 +31,7 @@ with:
 		</div>
 ````
 
-Next we will add some code to execute a documenent lookup.  To do this add the following code to the search.js file:
+Next we will add some code to execute a documenent lookup.  To do this add the following code to the search.js file to allow the application to do this lookup query as well as to transition from one page to another.
 
 ```html
 function execLookup(q) {
@@ -63,6 +63,20 @@ function execLookup(q) {
         }
     });
 }
+
+function changePage(fromPage, toPage, reverse, nrisRefnum)
+{
+	if (fromPage == '#homepage')
+	{
+		$.mobile.changePage(toPage, { transition: 'slide', reverse: reverse });
+        execLookup(nrisRefnum);
+	} else {
+		$.mobile.changePage(toPage, { transition: 'slide', reverse: reverse });
+		//navigator.app.backHistory();
+	}
+
+}
+
 
 ```
 
