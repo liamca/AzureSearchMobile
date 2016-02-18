@@ -274,4 +274,4 @@ You should see an application that looks like this.  Try clicking on the Filter 
 
 <img src="https://raw.githubusercontent.com/liamca/AzureSearchMobile/master/Chapter%204%20-%20Adding%20Filtering/filtering.png">
 
-###[Next Chapter 5 - Adding a Details Page...](https://github.com/liamca/AzureSearchMobile/tree/master/Chapter%204%20-%20Adding%20Filtering)
+###[Next Chapter 5 - Adding a Details Page...](https://github.com/liamca/AzureSearchMobile/tree/master/Chapter%205%20-%20Adding%20a%20Details%20Page)
