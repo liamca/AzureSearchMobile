@@ -73,7 +73,7 @@ function execSearch()
 	lastSearchTerm = $("#searchbar").val();
 
     // Extract parameters from URL for search
-    var searchAPI = "https://azs-playground.search.windows.net/indexes/historicsites/docs?api-version=2015-02-28-Preview&search=" + lastSearchTerm;
+    var searchAPI = "https://azs-playground.search.windows.net/indexes/historicsites/docs?api-version=2015-02-28-Preview&$top=10&search=" + lastSearchTerm;
 
     $.ajax({
         url: searchAPI,
