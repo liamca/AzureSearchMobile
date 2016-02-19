@@ -24,9 +24,9 @@ I have split this tutorial into multiple steps to allow you to build out the fin
 ## Technologies Used
 
 There are three main technologies used to build out this application which include:
-* **Apache Cordova** which is the technology used to create the cross platform JavaScript application
-* **Azure Search** which is the full text search service that contains the details on the Historic Sites and is where the application executes its search
-* **Azure Blob Storage** contains the images used within the application
+* **<a href="https://cordova.apache.org/">Apache Cordova</a>** which is the technology used to create the cross platform JavaScript application
+* **<a href="https://azure.microsoft.com/en-us/services/search/">Azure Search</a>** which is the full text search service that contains the details on the Historic Sites and is where the application executes its search
+* **<a href="https://azure.microsoft.com/en-us/services/storage/">Azure Blob Storage</a>** contains the images used within the application
 
 ## Chapters
 [**Chapter 1 - Getting Started**](https://github.com/liamca/AzureSearchMobile/tree/master/Chapter%201%20-%20Getting%20Started)
