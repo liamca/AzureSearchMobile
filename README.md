@@ -33,5 +33,10 @@ There are three main technologies used to build out this application which inclu
 
 [**Chapter 2 - Building the Cordova App**](https://github.com/liamca/AzureSearchMobile/tree/master/Chapter%202%20-%20Create%20the%20Cordova%20App)
 
-There will be more chapters coming, but here is the final app:
+[**Chapter 3 - Adding Search to the Cordova Application**](https://github.com/liamca/AzureSearchMobile/tree/master/Chapter%203%20-%20Add%20Search%20to%20Cordova%20App)
+
+[**Chapter 4 - Adding Filtering**](https://github.com/liamca/AzureSearchMobile/tree/master/Chapter%204%20-%20Adding%20Filtering)
+
+[**Chapter 5 - Adding a Details Page**](https://github.com/liamca/AzureSearchMobile/tree/master/Chapter%205%20-%20Adding%20a%20Details%20Page)
+
 [**Completed Application**](https://github.com/liamca/AzureSearchMobile/tree/master/Completed%20Application)
