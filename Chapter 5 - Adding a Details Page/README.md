@@ -86,5 +86,7 @@ Build and run the emulation of this app using the following commands:
 cordova emulate browser
 </code></pre>
 
+When running the app, click on an image to view the details:
+<img src="https://raw.githubusercontent.com/liamca/AzureSearchMobile/master/Chapter%205%20-%20Adding%20a%20Details%20Page/details_page.png">
 
 ###[Download the complete code...](https://github.com/liamca/AzureSearchMobile/tree/master/Completed%20Application)
